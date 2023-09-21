@@ -11,7 +11,7 @@ public class Hard {
 		if (-1 * r <= x * x + y * y - r * r && x * x + y * y - r * r <= r) {
 		    line += "[]";
 		} else {
-		    line += "  ";
+		    line += "==";
 		}
 	    }
 	    System.out.println(line);
